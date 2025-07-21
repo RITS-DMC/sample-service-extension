@@ -1,21 +1,21 @@
 const service = require('./index');
 
-process.env.baseUrl = "https://api.test.eu20.dmc.cloud.sap";
-process.env.plant = "MB01";
-process.env.order = "T123";
-process.env.url = "https://ritsdmc-az12fc9w.authentication.eu20.hana.ondemand.com/oauth/token";
-process.env.clientid = "sb-5a4cc893-075b-4847-aa0c-64ac8e5341eb!b5357|dmc-services-quality!b330";
-process.env.clientsecret = "h6fLBaZ8fs1PScAUhpMTlQoG0+8=";
+process.env.baseUrl = "<public-api-endpoint>";
+process.env.plant = "<plant-name>";
+process.env.order = "<order-name>";
+process.env.url = "<url>/oauth/token";
+process.env.clientid = "<client-id>";
+process.env.clientsecret = "<client-secret>";
 process.env.grant_type = "client_credentials";
 
 const mockEvent = {
   data: {
     extensionParameters: {
-      ORDER_NAME: "T123",
-      PLANT: "MB01"
+      ORDER_NAME: "<Order-Name>",
+      PLANT: "<Plant>"
     },
     identifiers: [
-      "ABC001156", "ABC001157"
+      "sfc1", "sfc2"
     ]
   }
 };
