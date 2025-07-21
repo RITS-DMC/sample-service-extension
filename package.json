@@ -1,0 +1,9 @@
+{
+  "name": "get-nextnumber",
+  "version": "1.0.1",
+  "description": "insertupdateblock",
+  "main": "server.js",          
+  "dependencies": { 
+    "request": "latest"
+  }
+}
