@@ -8,6 +8,7 @@ Steps to Test SAP DMC API:
 
 3. Configure API Credentials in test.js
         Open the test.js file and update the following fields with actual values:
+
         process.env.baseUrl = "<public-api-endpoint>";
         process.env.plant = "<plant-name>";
         process.env.order = "<order-name>";
